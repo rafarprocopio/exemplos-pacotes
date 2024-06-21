@@ -8,9 +8,5 @@ public class AutodromoformaAbstracao {
         MotoformaAbstracao Z400 = new MotoformaAbstracao();
         Z400.setChassi("87854");
         Z400.ligar();
-    }
-
-      
-
-
+    }   
 }

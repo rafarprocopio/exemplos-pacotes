@@ -1,4 +1,4 @@
-public class VeiculoformaAbstracao {
+public abstract class VeiculoformaAbstracao {
     private String chassi;
         public String getChassi() {
             return chassi;
@@ -6,6 +6,5 @@ public class VeiculoformaAbstracao {
         public void setChassi(String chassi) {
             this.chassi = chassi;
         }
-    public abstract void ligar() {
-    }
+    public abstract void ligar(); 
 }
