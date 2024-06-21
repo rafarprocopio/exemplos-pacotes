@@ -1,11 +1,14 @@
-public class Carro {
+package PilaresPOO;
+public class Carroformaencapsulada {
     public void ligar(){
+        confereCambio();
+        confereCombustivel();
         System.out.println("CARRO LIGADO");
     }
-    public void confereCombustivel() {
+    private void confereCombustivel() {
         System.out.println("Conferindo combustível");
     }
-    public void confereCambio() {
+    private void confereCambio() {
     System.out.println("Conferindo câmbio em P");
     }
 }
